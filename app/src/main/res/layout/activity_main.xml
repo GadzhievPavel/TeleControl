@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <io.github.controlwear.virtual.joystick.android.JoystickView
+        xmlns:custom="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/joystick"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        custom:JV_backgroundColor="#1111"
+        custom:JV_borderColor="#3333"
+        custom:JV_borderWidth="10dp"
+        custom:JV_buttonColor="#5555"
+        custom:JV_buttonSizeRatio="20%"
+        custom:JV_fixedCenter="false"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        tools:ignore="MissingConstraints" />
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+        <TextView
+            android:text="direction:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/inputcoomand"/>
+        <TextView
+            android:id="@+id/angle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="angle:"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/stretch"
+            android:layout_width="wrap_content"
+            android:layout_height="39dp"
+            android:text="stretch:"
+            android:textColor="#000000" />
+    </LinearLayout>
+
+
+</RelativeLayout>
