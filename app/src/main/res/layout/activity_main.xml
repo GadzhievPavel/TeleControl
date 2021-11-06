@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <io.github.controlwear.virtual.joystick.android.JoystickView
+    <!--<io.github.controlwear.virtual.joystick.android.Custom2Joystick
         xmlns:custom="http://schemas.android.com/apk/res-auto"
         android:id="@+id/joystick"
         android:layout_width="150dp"
@@ -20,7 +20,7 @@
         custom:JV_fixedCenter="false"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints" />!-->
     <LinearLayout
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
